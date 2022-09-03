@@ -1,9 +1,10 @@
-
-import { utils, BigNumber, ethers } from "ethers"
+import { BigNumber, ethers, utils } from "ethers"
+import Image from 'next/image'
 import { useEffect, useRef } from "react"
+
+import { NFT_CONTRACT_ABI, NFT_CONTRACT_ADDRESS } from "../../constants/contract/index"
 import { CONTRACT_OPTIONS } from "../../reducer/contract/index"
 import myContract from "../../utility/contract"
-import { NFT_CONTRACT_ADDRESS, NFT_CONTRACT_ABI } from "../../constants/contract/index"
 
 export default function Connected({ walletState, walletDispatch, contractState, contractDispatch }) {
 
@@ -165,23 +166,11 @@ export default function Connected({ walletState, walletDispatch, contractState, 
                                 </ul>
                             </div>
                         </div>
-                        <div className="w-full px-3 mb-12 lg:w-1/2 order-0 lg:order-1 lg:mb-0"><img className="mx-auto sm:max-w-sm lg:max-w-full" src="https://cdn.devdojo.com/images/november2020/feature-graphic.png" alt="feature image" /></div>
+                        <div className="w-full px-3 mb-12 lg:w-1/2 order-0 lg:order-1 lg:mb-0">
+                            <Image layout="responsive" objectFit="contain" width="100" height="80" className="mx-auto sm:max-w-sm lg:max-w-full" src="https://cdn.devdojo.com/images/november2020/feature-graphic.png" alt="feature image" /></div>
                     </div>
                 </div>
             </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

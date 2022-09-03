@@ -1,7 +1,6 @@
-
 import { Contract, ethers } from "ethers"
 
-import { TOKEN_CONTRACT_ADDRESS, TOKEN_CONTRACT_ABI } from "../constants/contract/index"
+import { TOKEN_CONTRACT_ABI, TOKEN_CONTRACT_ADDRESS } from "../constants/contract/index";
 
 export default async function myContract(provider, isSignerRequired = false) {
 

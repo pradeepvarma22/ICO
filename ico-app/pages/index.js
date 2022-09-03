@@ -1,13 +1,13 @@
-import Header from "./components/Header/index"
-import Footer from "./components/Footer/index"
-import ConnectToWallet from "./components/wallet/index"
-import UserConnected from "./components/connected/index"
-import BodyMain from "./components/body"
 import { useEffect, useReducer, useRef } from "react"
-import { WALLET_INITIAL_STATE, walletReducer } from "./reducer/wallet/index"
-import { contractReducer, CONTRACT_INITIAL_STATE } from "./reducer/contract/index"
 import Web3Modal from "web3modal"
 
+import BodyMain from "../components/body"
+import UserConnected from "../components/connected/index"
+import Footer from "../components/Footer/index"
+import Header from "../components/Header/index"
+import ConnectToWallet from "../components/wallet/index"
+import { CONTRACT_INITIAL_STATE, contractReducer } from "../reducer/contract/index"
+import { WALLET_INITIAL_STATE, walletReducer } from "../reducer/wallet/index"
 
 export default function Home() {
 

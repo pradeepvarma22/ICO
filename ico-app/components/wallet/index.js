@@ -1,6 +1,6 @@
 import connect from "../../utility/connect";
 import Image from 'next/image'
-import background from "../../../public/bg-image.webp"
+
 
 export default function ConnectToWallet({ walletState, walletDispatch, web3ModalRef }) {
 

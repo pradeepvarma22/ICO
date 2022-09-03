@@ -1,7 +1,6 @@
-
 import { ethers } from "ethers"
-import { WALLET_OPTIONS } from "../reducer/wallet/index"
 
+import { WALLET_OPTIONS } from "../reducer/wallet/index";
 
 export default async function connect(web3ModalRef, walletDispatch) {
 

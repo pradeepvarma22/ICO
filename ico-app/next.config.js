@@ -3,7 +3,7 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   images: {
-    domains: ['www.thesun.co.uk', 'thumbor.forbes.com'],
+    domains: ['www.thesun.co.uk', 'thumbor.forbes.com', 'cdn.devdojo.com'],
   }
 }
 
