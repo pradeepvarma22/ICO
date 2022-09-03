@@ -15,4 +15,13 @@
 ![home](assets/1.png)
 ![home](assets/2.png)
 ![home](assets/3.png)
+
+### Claim
 ![home](assets/claim.png)
+
+
+## Video
+
+
+https://user-images.githubusercontent.com/28341697/188287242-827e6c2b-7861-4344-b882-b4689876a878.mp4
+
