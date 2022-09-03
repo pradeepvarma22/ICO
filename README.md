@@ -7,3 +7,12 @@
 <li> Every Crypto Dev NFT holder should get 10 tokens for free but they would have to pay the gas fees.  </li>
 <li>The price of one CD at the time of ICO should be 0.001 ether. </li>
 <li>There should be a website that users can visit for the ICO.  </li>
+
+## UI
+
+### Home Page
+
+![home](assets/1.png)
+![home](assets/2.png)
+![home](assets/3.png)
+![home](assets/claim.png)
