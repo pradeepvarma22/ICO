@@ -2,6 +2,7 @@ import Header from "./components/Header/index"
 import Footer from "./components/Footer/index"
 import ConnectToWallet from "./components/wallet/index"
 import UserConnected from "./components/connected/index"
+import BodyMain from "./components/body"
 import { useEffect, useReducer, useRef } from "react"
 import { WALLET_INITIAL_STATE, walletReducer } from "./reducer/wallet/index"
 import { contractReducer, CONTRACT_INITIAL_STATE } from "./reducer/contract/index"
@@ -36,12 +37,11 @@ export default function Home() {
     <div>
       <Header />
 
-
       {
         walletState.walletConnected ? (
           <div>
 
-            {walletState.walletAddress}
+
             <UserConnected walletState={walletState} walletDispatch={walletDispatch} contractState={contractState} contractDispatch={contractDispatch} />
 
           </div>
@@ -55,6 +55,11 @@ export default function Home() {
           </div>
         )
       }
+      <br />
+      <br />
+
+      <BodyMain />
+
       <Footer />
     </div >
   )
