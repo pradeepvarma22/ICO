@@ -10,8 +10,7 @@
 
 
 # Deployed to vercel
-<a href="ico-tan-nine.vercel.app" target="_blank">ico-tan-nine.vercel.app</a>
-
+https://ico-tan-nine.vercel.app/
 
 ### UI
 
