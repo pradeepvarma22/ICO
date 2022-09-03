@@ -17,7 +17,7 @@ export default function Footer() {
                             <h5 className="uppercase mb-6 font-bold">Links</h5>
                             <ul className="mb-4">
                                 <li className="mt-2">
-                                    <a href="#" className="hover:underline text-gray-600 hover:text-orange-500">I'll return</a>
+                                    <a href="#" className="hover:underline text-gray-600 hover:text-orange-500">I ll return</a>
                                 </li>
                                 <li className="mt-2">
                                     <a href="#" className="hover:underline text-gray-600 hover:text-orange-500">I promise</a>
@@ -31,7 +31,7 @@ export default function Footer() {
                             <h5 className="uppercase mb-6 font-bold">Legal</h5>
                             <ul className="mb-4">
                                 <li className="mt-2">
-                                    <a href="#" className="hover:underline text-gray-600 hover:text-orange-500">Emperor's Terms</a>
+                                    <a href="#" className="hover:underline text-gray-600 hover:text-orange-500">Emperors Terms</a>
                                 </li>
                                 <li className="mt-2">
                                     <a href="#" className="hover:underline text-gray-600 hover:text-orange-500">Pulverized?</a>
