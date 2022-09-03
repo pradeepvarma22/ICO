@@ -8,9 +8,12 @@
 <li>The price of one CD at the time of ICO should be 0.001 ether. </li>
 <li>There should be a website that users can visit for the ICO.  </li>
 
-## UI
 
-### Home Page
+# Deployed to vercel
+<a href="ico-tan-nine.vercel.app">ico-tan-nine.vercel.app</a>
+
+
+### UI
 
 ![home](assets/1.png)
 ![home](assets/2.png)
